@@ -101,4 +101,5 @@ def turno(planilla):
     relanz1 = input("Quiere relanzar? (S/N): ")
     if relanz1 == "S" or relanz1 == "s":
         cant_relanz += 1
+        manten1 = input("¿Cuáles posiciones mantener? (ej: 1,3,5 o 'todos' para relanzar todos): ")
         
